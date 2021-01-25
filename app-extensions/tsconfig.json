@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      // this aligns with Vue's browser support
+      "target": "es5",
+      "strict": true,
+      "module": "es2015",
+      "moduleResolution": "node",
+      "noImplicitAny": false,
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "baseUrl": ".",
+    },
+    "rootDir": "src",
+    "include": ["src/**/*.ts", "src/**/*.vue"],
+    "exclude": ["node_modules"],
+    "typeRoots": [      
+      "node_modules/@types", "node_modules/vue"
+    ]
+}
